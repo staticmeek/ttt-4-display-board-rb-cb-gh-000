@@ -8,7 +8,7 @@ def display_board(board)
   puts "#{board[]}|#{board[]}|#{board[]}"
 end
 # out the current state.
-
+"""
 board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
 display_board(board)
 board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
@@ -23,3 +23,4 @@ board = ["X", " ", " ", " ", "X", " ", " ", " ", "X"]
 display_board(board)
 board = [" ", " ", "O", " ", "O", " ", "O", " ", " "]
 display_board(board)
+"""
