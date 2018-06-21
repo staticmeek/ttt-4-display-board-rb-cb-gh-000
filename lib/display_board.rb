@@ -8,3 +8,10 @@ def display_board(board)
   puts "   |   |   "
 end
 # out the current state.
+
+board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+display_board(board)
+
+board = ["O", " ", " ", " ", " ", " ", " ", " ", " "]
+display_board(board)
+
